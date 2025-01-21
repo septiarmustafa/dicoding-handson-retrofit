@@ -29,7 +29,7 @@ data class CustomerReviewsItem(
 data class Restaurant(
 
 	@field:SerializedName("customerReviews")
-	val customerReviews: List<CustomerReviewsItem?>? = null,
+	val customerReviews: List<CustomerReviewsItem>? = null,
 
 	@field:SerializedName("pictureId")
 	val pictureId: String? = null,
